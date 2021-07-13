@@ -7,22 +7,22 @@
 // 4. The main()  is where the creation of the object and calling of the methods of class Area_of_rectangle.
 
 
-class Area_of_rectangle {  
-       private:  
-             int length, width, area=0;
-       public: 
-              void get ()  {
+class Area_of_rectangle {         //______________________________
+       private:                                                //|
+             int length, width, area=0;                        //|
+       public:                                                 //|
+              void get ()  {                                   //|  
                     cout<<"Enter length value =";
                     cin>>length;
-                    cout<<"Enter width value ="; 
+                    cout<<"Enter width value =";             // Creating a class in C++
                     cin>>width;
                     }        
               void result ()  {
-                    area=length * width;
+                    area=length * width;                  
                     cout<<"area =";
-                    cout<<area;
-                    }
-};
+                    cout<<area;                                //|
+                    }                                          //|   
+};                              //_______________________________|
 
 int main() {
        Area_of_rectangle Formula; 
