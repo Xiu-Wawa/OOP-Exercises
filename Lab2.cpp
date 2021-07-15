@@ -10,22 +10,22 @@
 using namespace std;
 
 
-class Area_of_rectangle {         //______________________________
-       private:                                                //|
-             float length, width, area=0;                        //|
-       public:                                                 //|
-              void get ()  {                                   //|  
+class Area_of_rectangle {        
+       private:                                               
+             float length, width, area=0;                       
+       public:                                                
+              void get ()  {                                 
                     cout << "Enter length value =";
                     cin >> length;
-                    cout << "Enter width value =";             // Creating a class in C++
+                    cout << "Enter width value =";            
                     cin >> width;
               }
               void result ()  {
-                    cout<<"area =";
-                    area=length * width;                  
-                    cout<<area;                                //|
-              }                                          //|
-};                              //_______________________________|
+                    cout << "area =";
+                    area = length * width;                  
+                    cout << area;                              
+              }                                         
+};                           
 
 
 int main() {
