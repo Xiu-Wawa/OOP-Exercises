@@ -43,9 +43,9 @@ using namespace std;
 class STUDENT {
     private:
       char name[30];
-      int rollNo;
-      int total;
-      float perc;
+      int id_number;
+      int total_grade;
+      float percentage;
     
     public:
     
@@ -53,14 +53,14 @@ class STUDENT {
           cout << "Enter name: ";
           cin >> name;
           cout << "Enter roll number: ";
-          cin >> rollNo;
+          cin >> id_number;
           cout << "Enter total marks out of 500: ";
-          cin >> total;
-          perc=(float)total/500*100;
+          cin >> total_grade;
+          percentage=(float)total_grade/500*100;
       }
       
       void putDetails() {
-          cout << "Name:"<< name << ", Roll Number:" << rollNo << ", Total:" << total << ", Percentage:" << perc;
+          cout << "Name:"<< name << ", Roll Number:" << id_number << ", Total:" << total_grade << ", Percentage:" << percentage;
       }
 };
       
